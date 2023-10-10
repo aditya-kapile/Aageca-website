@@ -21,9 +21,7 @@ navbar {
     
 }
 
-navbar .logo i{
-     font-size: 4rem;
-}
+
 
 navbar .bar ul{
     display: flex;
@@ -44,27 +42,50 @@ navbar .bar ul a:hover {
 .hero {
     min-height: 100vh;
     width: 100%;
-    display: grid;
-    place-items: center;
+    /* display: grid; */
+    /* place-items: center; */
     color: white;
     text-align: center;
+    font-size: 2rem;
 }
 
-.hero::before{
+.hero video{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+/* .hero::before{
     content: '';
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url('https://images.unsplash.com/photo-1680459575585-390ed5cfcae0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    background-image: url('file:///D:/Alumni%20Website/images/VN20231011_000316.mp4');
+   
     background-size: cover;
-    filter: brightness(0.7) blur(1px);
-    box-shadow: inset 10px 10px 80px 60px rgba(0,0,0,0.5),
-    inset 30px 30px 80px 60px rgba(0,0,0,0.5),
-    inset 60px 60px 80px 60px rgba(0,0,0,0.5),
-                inset -10px -10px 80px 60px rgba(0,0,0,0.5);
+    filter: brightness(0.5) blur(0px);
+     box-shadow: inset 10px 10px 80px 60px rgba(0,0,0,0.1),
+    inset 30px 30px 80px 60px rgba(0,0,0,0.1),
+    inset 60px 60px 80px 60px rgba(0,0,0,0.1),
+    inset 70px 70px 80px 60px rgba(0,0,0,0.1),
+    inset 80px 80px 80px 60px rgba(0,0,0,0.1),
+    inset 90px 90px 80px 60px rgba(0,0,0,0.1),
+    inset 180px 180px 80px 60px rgba(0,0,0,0.1),
+                inset -10px -10px 80px 60px rgba(0,0,0,0.2); 
     z-index: -999;
-}
+} */
 
+
+ .hero .hero-content h1{
+
+    /* position: absolute;
+    transform:; */
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    font-family: 'Black Ops One', cursive;
+font-family: 'Young Serif', serif;
+} 
 .work {
     min-height: 100vh;
     text-align: center;
@@ -128,37 +149,15 @@ navbar .bar ul a:hover {
     grid-column: 4/6;
 }
 
-.work .gallary .box-1:hover {
+.work .gallary .box:is(:hover){
     filter: brightness(1);
-
 }
-.work .gallary .box-2:hover {
-    filter: brightness(1);
 
-}
-.work .gallary .box-3:hover {
-    filter: brightness(1);
+@media (max-width: 600px) {
+    .work .gallary { grid-template-columns: 1fr 1fr }
+  }
 
-}
-.work .gallary .box-4:hover {
-    filter: brightness(1);
 
-}
-.work .gallary .box-5:hover {
-    filter: brightness(1);
-
-}.work .gallary .box-6:hover {
-    filter: brightness(1);
-
-}
-.work .gallary .box-7:hover {
-    filter: brightness(1);
-
-}
-.work .gallary .box-8:hover {
-    filter: brightness(1);
-
-}
 
 .work button {
     margin-top: 20px;
