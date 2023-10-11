@@ -132,7 +132,6 @@ body {
     font-size: 3rem;
     background-color: dodgerblue;
     text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
-    
   }
 
   .about .bar{
@@ -145,4 +144,78 @@ body {
     text-decoration: none;
     padding: 20px;
   }
+.objectives{
+  display: none;
+  background-color: aliceblue;
+  height: 350px;
+  justify-content: center;
+  color: rgb(23, 60, 92);
+  padding: 30px 60px 60px 60px;
 
+}
+.mission{
+  display: none;
+  background-color: aliceblue;
+  height: 350px;
+  justify-content: center;
+  color: rgb(23, 60, 92);
+  padding: 30px 60px 60px 60px;
+}
+.vision{
+  display: none;
+  background-color:aliceblue;
+  height: 350px;
+  justify-content: center;
+  color: rgb(23, 60, 92);
+  padding: 30px 60px 60px 60px;
+}
+.bar{
+margin-bottom: 0;
+}
+.bar li{
+  cursor: pointer;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+.non-btn{
+
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+.active{
+  display: flex;
+  border-radius: 25px;
+}
+.mission-container p{
+  line-height: 20px;
+  word-spacing: 7px;
+  letter-spacing: 1.5px;
+  padding: 20px;
+  
+}
+.objective{
+  background-color: dodgerblue;
+  padding: 20px 40px 30px 30px;
+  padding-bottom: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+.mission-container{
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: dodgerblue;
+}
+.active_btn{
+  background-color: aliceblue;
+  border-radius: 25px 25px 0% 0%;
+}
+.bar li :hover{
+  background-color: rgba(240, 248, 255, 0.322);
+  border-radius: 25px 25px 0% 0%;
+}
+.btn:hover{
+  background-color: rgba(255, 255, 255, 0.156);
+  border-radius: 25px 25px 0% 0%;
+}
+.mission-container p{
+  width: 950px;
+}
