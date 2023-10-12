@@ -1,278 +1,417 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
-=======
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    =======
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-      <style>
-        a{
-            text-decoration: none;
-            color: white;
-        }
-    </style>  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
 
     <link rel="stylesheet" href="style.css" />
 
     <script>
-        $(document).ready(function () {
-            $(".load-more").click(function () {
-                $(".gallary").animate({
-                    height: '800px'
-                });
-            });
-
+      $(document).ready(function () {
+        $(".load-more").click(function () {
+          $(".gallary").animate({
+            height: "800px",
+          });
         });
+      });
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="topnav" id="myTopnav">
-        <img src="images/aageca logo.png" alt="logo" width="110px" >
+      <img src="images/aageca logo.png" alt="logo" width="110px" />
 
-        
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#event">Event</a>
-        <a href="#about">About</a>
-        <a href="#home" class="active">Home</a>
-        
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#event">Event</a>
+      <a href="#about">About</a>
+      <a href="#home" class="active">Home</a>
 
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
 
     <div class="hero" id="home">
-        <div class="video-wrapper">
-            <video playsinline autoplay muted loop poster="images/geca.jpg">
-                <source src="images/VN20231011_003350    3.mp4"
-                    type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+      <div class="video-wrapper">
+        <video playsinline autoplay muted loop poster="images/geca.jpg">
+          <source src="images/VN20231011_003350    3.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-            <h1>Where Past <br /> Meets The
-                <span style="color: yellow;">Future</span>
-            </h1>
-        </div>
+        <h1>
+          Where Past <br />
+          Meets The
+          <span style="color: yellow">Future</span>
+        </h1>
+      </div>
     </div>
 
     <div class="about" id="about">
-        <h1>Who We Are</h1>
-        <p>At <em>Government College Of Engineering , Aurangabad (GECA) </em> Alumni Network, we take immense pride in
-            our illustrious history and the extraordinary individuals who have walked through our campus gates. Our
-            alumni network is a testament to the profound impact of education and the lasting bonds formed during our
-            college years. We invite you to be a part of this extraordinary journey as we celebrate our shared past and
-            look forward to a bright future.our mission is to foster a vibrant and enduring community of graduates who
-            are committed to strengthening the bonds that tie us to our beloved institution. We are dedicated to
-            empowering our alumni to thrive in their personal and professional lives, to engage meaningfully with each
-            other and their alma mater, and to collectively make a positive impact on society.</p>
-        <div class="objective">
+      <h1>Who We Are</h1>
+      <p class="p-5">
+        At
+        <em>Government College Of Engineering , Aurangabad (GECA) </em> Alumni
+        Network, we take immense pride in our illustrious history and the
+        extraordinary individuals who have walked through our campus gates. Our
+        alumni network is a testament to the profound impact of education and
+        the lasting bonds formed during our college years. We invite you to be a
+        part of this extraordinary journey as we celebrate our shared past and
+        look forward to a bright future.our mission is to foster a vibrant and
+        enduring community of graduates who are committed to strengthening the
+        bonds that tie us to our beloved institution. We are dedicated to
+        empowering our alumni to thrive in their personal and professional
+        lives, to engage meaningfully with each other and their alma mater, and
+        to collectively make a positive impact on society.
+      </p>
+      <div class="objective">
         <ul class="bar">
-            <li class="obj-btn btn">Objectives</li>
-            <li class="mis-btn non-btn btn">Mission</li>
-            <li class="vis-btn non-btn btn">Vision</li>
+          <li class="obj-btn btn">Objectives</li>
+          <li class="mis-btn non-btn btn">Mission</li>
+          <li class="vis-btn non-btn btn">Vision</li>
         </ul>
-        
-        <div class="mission-container">
-            <div class="objectives">
-                <p>
-                * To provide an organization through which the alumni of the Institute can keep in touch with the
-                Students, faculty, and staff of the Institute, the activities of the Institute and with one another. To
-                enable the institute to help in the different assistance required by the industry.
-                * To take up sponsored projects in the various faculties and increase Industry Institute Interaction.
-                * To provide testing and consultancy to the Alumni of the college in different fields like Civil,
-                Structures, Environmental Engg, Computers, etc.
-                * To enable the alumni to take part in such activities of the Institute and may contribute to the
-                general improvement of the status of the Institute and alumni.
-                * To help the alumni to get information from the Institute on various technical problems that they come
-                across in their work.
-                * To raise funds for creating various facilities at the institute. To enable alumni to help the Training
-                and Placement of the students of this institute and to provide required manpower if they wish to make
-                use of.
-                * To arrange any activity for the benefit of the students, alumni and the faculty of the institute.
-                * To Institute prizes and scholarships for students of the Institute on the basis of merit and render
-                financial aid to deserving students, studying at the Institute To bring out a Bulletin periodically,
-                highlighting the activities of the Institute and its alumni.
-                * To further such other items as the Governing Body May decide from time to time in the interest of
-                alumni of students or the faculty of the institute or the society.
-                </p>
-            </div>
-            <div class="mission">
-                <p>
-                * Provide conducive environment for academic in engineering education.
-                * Enhance research and development along with promotion to sponsored projects and industrial
-                consultancy.
-                * Foster develpoment of students by creating awareness for needs of society, sustainable develpoment and
-                human values.
-                </p>
-            </div>
-            <div class="vision">
-                <p>
-                In pursuit of global competitiveness, the institute is committed to excel in engineering
-                education and research with concern for environment and society.
-                </p>
-            </div>
-        </div>
-        </div>
-    </div>
 
+        <div class="mission-container">
+          <div class="objectives">
+            <p>
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To provide
+              an organization through which the alumni of the Institute can keep
+              in touch with the Students, faculty, and staff of the Institute,
+              the activities of the Institute and with one another. To enable
+              the institute to help in the different assistance required by the
+              industry. <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To take up
+              sponsored projects in the various faculties and increase Industry
+              Institute Interaction. <br />
+              <br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To provide
+              testing and consultancy to the Alumni of the college in different
+              fields like Civil, Structures, Environmental Engg, Computers, etc.
+              <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To enable
+              the alumni to take part in such activities of the Institute and
+              may contribute to the general improvement of the status of the
+              Institute and alumni. <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To help the
+              alumni to get information from the Institute on various technical
+              problems that the come across in their work. <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To raise
+              funds for creating various facilities at the institute. To enable
+              alumni to help the Training and Placement of the students of this
+              institute and to provide required manpower if they wish to make
+              use of. <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To arrange
+              any activity for the benefit of the students, alumni and the
+              faculty of the institute. <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To Institute
+              prizes and scholarships for students of the Institute on the basis
+              of merit and render financial aid to deserving students, studying
+              at the Institute To bring out a Bulletin periodically,
+              highlighting the activities of the Institute and its alumni.
+              <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> To further
+              such other items as the Governing Body May decide from time to
+              time in the interest of alumni of students or the faculty of the
+              institute or the society.
+            </p>
+          </div>
+          <div class="mission">
+            <p>
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Provide
+              conducive environment for academic in engineering education.
+              <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Enhance
+              research and development along with promotion to sponsored
+              projects and industrial consultancy. <br /><br />
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Foster
+              develpoment of students by creating awareness for needs of
+              society, sustainable develpoment and human values.
+            </p>
+          </div>
+          <div class="vision">
+            <p>
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i> In pursuit
+              of global competitiveness, the institute is committed to excel in
+              engineering education and research with concern for environment
+              and society.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="gallary-container" id="event">
+      <h1>Programms And Events</h1>
 
-        <h1>Programms And Events</h1>
+      <div class="gallary p-5" id="gallary">
+        <div
+          class="box box-1"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DRL_7264.JPG');
+          "
+        ></div>
+        <div
+          class="box box-2"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DRL_7352.JPG');
+          "
+        ></div>
+        <div
+          class="box box-3"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7251.JPG');
+          "
+        ></div>
+        <div
+          class="box box-4"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DRL_7442.JPG');
+          "
+        ></div>
+        <div
+          class="box box-5"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7196.JPG');
+          "
+        ></div>
+        <div
+          class="box box-6"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7219.JPG');
+          "
+        ></div>
+        <div
+          class="box box-7"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7238.JPG');
+          "
+        ></div>
+        <div
+          class="box box-8"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7254.JPG');
+          "
+        ></div>
 
-        <div class="gallary" id="gallary">
-            <div class="box box-1"
-                style="background-image: url('https://images.unsplash.com/photo-1678109480836-a488dba67be8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');">
-            </div>
-            <div class="box box-2"
-                style="background-image: url('https://images.unsplash.com/photo-1678109480818-5c6f124d296f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');">
-            </div>
-            <div class="box box-3"
-                style="background-image: url('https://images.unsplash.com/photo-1678109483285-c48fe06fef97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');">
-            </div>
-            <div class="box box-4"
-                style="background-image: url('https://images.unsplash.com/photo-1586777715432-fa0d660deb3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60s');">
-            </div>
-            <div class="box box-5"
-                style="background-image: url('https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60');">
-            </div>
-            <div class="box box-6"
-                style="background-image: url('https://images.unsplash.com/photo-1681993301317-2778fd518d4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80');">
-            </div>
-            <div class="box box-7"
-                style="background-image: url('https://images.unsplash.com/photo-1586777715432-fa0d660deb3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80');">
-            </div>
-            <div class="box box-8"
-                style="background-image: url('https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');">
-            </div>
+        <div
+          class="box box-9"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7256.JPG');
+          "
+        ></div>
 
-            <div class="box box-9"
-                style="background-image: url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
-            </div>
+        <div
+          class="box box-10"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7334.JPG');
+          "
+        ></div>
 
-            <div class="box box-10"
-                style="background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
-            </div>
+        <div
+          class="box box-11"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7345.JPG');
+          "
+        ></div>
 
-            <div class="box box-11"
-                style="background-image: url('https://plus.unsplash.com/premium_photo-1664474653221-8412b8dfca3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80');">
-            </div>
+        <div
+          class="box box-12"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7375.JPG');
+          "
+        ></div>
+        <div
+          class="box box-13"
+          style="
+            background-image: url('file:///D:/Alumni%20Website/images/DSC_7439.JPG');
+          "
+        ></div>
+      </div>
 
-            <div class="box box-12"
-                style="background-image: url('https://plus.unsplash.com/premium_photo-1683121128953-9a7f08b82198?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
-            </div>
+      <div
+        class="w3-content w3-display-container carousal"
+        style="width: fit-content"
+      >
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DRL_7264.JPG"
+          style="width: 400px; height: 300px"
+          loading="lazy"
+        />
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DRL_7352.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DRL_7402.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DSC_7196.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DSC_7219.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DSC_7238.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
 
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DSC_7254.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
 
-        </div>
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DSC_7254.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
 
-        <div class="w3-content w3-display-container  carousal" style="width: fit-content;">
-            <img class="mySlides"
-                src="https://images.unsplash.com/photo-1605647540924-852290f6b0d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=837&q=80"
-                style="width:400px; height:300px">
-            <img class="mySlides"
-                src="https://images.unsplash.com/photo-1624355511224-14da0f11e256?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                style="width:400px; height:300px">
-            <img class="mySlides"
-                src="https://images.unsplash.com/photo-1661206514777-2463d0d0599a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                style="width:400px; height:300px">
-            <img class="mySlides"
-                src="https://images.unsplash.com/photo-1657539810416-ee7a3063ff45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80"
-                style="width:400px; height:300px">
-            <img class="mySlides"
-                src="https://images.unsplash.com/photo-1657405826726-ac52271d3bb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80"
-                style="width:400px; height:300px">
-            <img class="mySlides"
-                src="https://images.unsplash.com/photo-1588358230769-9eca5b212954?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                style="width:400px; height:300px">
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DSC_7334.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
 
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-        </div>
+        <img
+          class="mySlides"
+          src="file:///D:/Alumni%20Website/images/DSC_7375.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
 
-        <button class="load-more" onClick="loadMore()">Load More....</button>
+        <button
+          class="w3-button w3-black w3-display-left gallary-btn"
+          onclick="plusDivs(-1)"
+        >
+          &#10094;
+        </button>
+        <button
+          class="w3-button w3-black w3-display-right gallary-btn"
+          onclick="plusDivs(1)"
+        >
+          &#10095;
+        </button>
+      </div>
+
+      <button class="load-more" onClick="loadMore()">Load More....</button>
     </div>
 
-
-<footer style="text-align: center;" id="contact">
-    <div class=" bg-dark text-light p-5 ">
-
-
-        <div class="row w-100"> 
-
-            <div class="col-sm-4">
-                <div class="row">
-                    <div class="col-12  " style="text-align: center;">
-                        <img src="images/aagecalogo.png" alt="Your Company Logo" class="logo">
-
-                    </div>
-                    <div class="col-12 mt-4">
+    <footer style="text-align: center" id="contact">
+      <div class="bg-dark text-light p-5">
+        <div class="row w-100">
+          <div class="col-sm-4">
+            <div class="row">
+              <div class="col-12" style="text-align: center">
+                <img
+                  src="images/aagecalogo.png"
+                  alt="Your Company Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="col-12 mt-4">
                 <ul class="social-icons media">
-                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                  <li>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </li>
                 </ul>
+              </div>
             </div>
+          </div>
+
+          <div class="col-sm-4">
+            <h4>MORE TNW</h4>
+            <ul>
+              <li><a href="">Media</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Program</a></li>
+              <li><a href="">Spaces</a></li>
+              <li><a href="">Newsletter</a></li>
+              <li><a href="">Deals</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 p-0">
+            <h4>ABOUT SAT</h4>
+            <ul>
+              <li><a href="">Services</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Partner with Us</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Cookie Statement</a></li>
+            </ul>
+          </div>
+          <hr class="bg-light" />
+          <div class="copyright col-12 text-center pb-2">
+            &copy; 2023 Your Company. All rights reserved.
+          </div>
         </div>
-            </div>
-
-            <div class="col-sm-4">
-
-
-                <h4>MORE TNW</h4>
-                <ul>
-                    <li><a href="">Media</a></li>
-                    <li><a href="">Events</a></li>
-                    <li><a href="">Program</a></li>
-                    <li><a href="">Spaces</a></li>
-                    <li><a href="">Newsletter</a></li>
-                    <li><a href="">Deals</a></li>
-                </ul>
-
-            </div>
-            <div class="col-sm-4 p-0 ">
-
-                <h4>ABOUT SAT</h4>
-                <ul>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Partner with Us</a></li>
-                    <li><a href="">Jobs</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
-                    <li><a href="">Cookie Statement</a></li>
-                </ul>
-            </div>
-    <hr class=" bg-light">
-    <div class="copyright col-12 text-center pb-2">
-        &copy; 2023 Your Company. All rights reserved.
-    </div>
-
-</div>
-</div>
-</footer>
-
-
-
-
+      </div>
+    </footer>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
