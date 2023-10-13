@@ -30,6 +30,13 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <style>
       a {
         text-decoration: none;
@@ -51,20 +58,73 @@
   </head>
 
   <body>
-    <div class="topnav" id="myTopnav">
-      <img src="images/aageca logo.png" alt="logo" width="110px" />
 
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#event">Event</a>
-      <a href="#about">About</a>
-      <a href="#home" class="active">Home</a>
+    <div class="sidebar" style=" width: fit-content; display: flex; justify-content: center;">
+      <div style="text-align: center;">
+          <ul class="social-icons" style="list-style-type: none;  display: inline-block;">
+              <li style="margin-bottom: 20px;"><a href=""><i class="fab fa-facebook"
+                          style="color: #1877F2; font-size: 32px;"></i></a></li>
+              <li style="margin-bottom: 20px;"><a href=""><i class="fab fa-instagram"
+                          style="color: #E1306C; font-size: 32px;"></i></a></li>
+              <li style="margin-bottom: 20px;"><a href=""><i class="fab fa-twitter"
+                          style="color: #1DA1F2; font-size: 32px;"></i></a></li>
+              <li style="margin-bottom: 20px;"><a href=""><i class="fab fa-youtube"
+                          style="color: #FF0000; font-size: 32px;"></i></a></li>
+              <li style="margin-bottom: 20px;"><a href=""><i class="fab fa-linkedin"
+                          style="color: #0A66C2; font-size: 32px;"></i></a></li>
+          </ul>
+      </div>
+  </div>
 
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
 
+
+  </div>
+  
+
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="images/aageca%20logo.png"
+              alt="AAGECA-logo"
+          /></a>
+          <a href="#"
+            ><img
+              src="images/gecaLogo.png"
+              alt="GECA-logo"
+          /></a>
+          <div class="menu-bar">
+            <button><i></i></button>
+          </div>
+        </div>
+
+        <div class="heading" id="heading">
+          <h1>
+            Student Alumni Association <br />
+            <span style="color:black; text-shadow: 3px 3px 10px rgba(0,0,0,0.4);"
+              >Government College Of Engineering , Chhatrapati Sambhaji
+              Nagar</span
+            >
+          </h1>
+        </div>
+
+      
+
+
+      <div class="navbar">
+        <div class="close-nav"><button>×</button></div>
+        <nav>
+          <ul>
+            <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#about"><i class="fa-regular fa-user"></i> About</a></li>
+            <li><a href="#event"><i class="fa-regular fa-calendar"></i> Events</a></li>
+            <li><a href="contact/sat%20team.html"><i class="fa-solid fa-inbox"></i> Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
     <div class="hero" id="home">
       <div class="video-wrapper">
         <video playsinline autoplay muted loop poster="images/geca.jpg">
@@ -80,9 +140,10 @@
       </div>
     </div>
 
-    <div class="about" id="about">
+    <div class="about" id="about" >
       <h1>Who We Are</h1>
-      <p class="p-5">
+      <div style="display: flex; justify-content: space-around; padding: 5%;flex-wrap: wrap-reverse;">
+      <p style="width: 80%;">
         At
         <em>Government College Of Engineering , Aurangabad (GECA) </em> Alumni
         Network, we take immense pride in our illustrious history and the
@@ -97,6 +158,9 @@
         lives, to engage meaningfully with each other and their alma mater, and
         to collectively make a positive impact on society.
       </p>
+      <img src="images/aageca%20logo.png" alt="logo" width="200px">
+
+      </div>
       <div class="objective">
         <ul class="bar">
           <li class="obj-btn btn">Objectives</li>
@@ -180,83 +244,83 @@
         <div
           class="box box-1"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DRL_7264.JPG');
+            background-image: url('images/DRL_7264.JPG');
           "
         ></div>
         <div
           class="box box-2"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DRL_7352.JPG');
+            background-image: url('images/DRL_7352.JPG');
           "
         ></div>
         <div
           class="box box-3"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7251.JPG');
+            background-image: url('images/DSC_7251.JPG');
           "
         ></div>
         <div
           class="box box-4"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DRL_7442.JPG');
+            background-image: url('images/DRL_7442.JPG');
           "
         ></div>
         <div
           class="box box-5"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7196.JPG');
+            background-image: url('images/DSC_7196.JPG');
           "
         ></div>
         <div
           class="box box-6"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7219.JPG');
+            background-image: url('images/DSC_7219.JPG');
           "
         ></div>
         <div
           class="box box-7"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7238.JPG');
+            background-image: url('images/DSC_7238.JPG');
           "
         ></div>
         <div
           class="box box-8"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7254.JPG');
+            background-image: url('images/DSC_7254.JPG');
           "
         ></div>
 
         <div
           class="box box-9"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7256.JPG');
+            background-image: url('images/DSC_7256.JPG');
           "
         ></div>
 
         <div
           class="box box-10"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7334.JPG');
+            background-image: url('images/DSC_7334.JPG');
           "
         ></div>
 
         <div
           class="box box-11"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7345.JPG');
+            background-image: url('images/DSC_7345.JPG');
           "
         ></div>
 
         <div
           class="box box-12"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7375.JPG');
+            background-image: url('images/DSC_7375.JPG');
           "
         ></div>
         <div
           class="box box-13"
           style="
-            background-image: url('file:///D:/Alumni%20Website/images/DSC_7439.JPG');
+            background-image: url('images/DSC_7439.JPG');
           "
         ></div>
       </div>
@@ -267,65 +331,65 @@
       >
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DRL_7264.JPG"
+          src="images/DRL_7264.JPG"
           style="width: 400px; height: 300px"
           loading="lazy"
         />
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DRL_7352.JPG"
+          src="images/DRL_7352.JPG"
           loading="lazy"
           style="width: 400px; height: 300px"
         />
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DRL_7402.JPG"
+          src="images/DRL_7402.JPG"
           loading="lazy"
           style="width: 400px; height: 300px"
         />
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DSC_7196.JPG"
+          src="images/DSC_7196.JPG"
           loading="lazy"
           style="width: 400px; height: 300px"
         />
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DSC_7219.JPG"
+          src="images/DSC_7219.JPG"
           loading="lazy"
           style="width: 400px; height: 300px"
         />
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DSC_7238.JPG"
-          loading="lazy"
-          style="width: 400px; height: 300px"
-        />
-
-        <img
-          class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DSC_7254.JPG"
+          src="images/DSC_7238.JPG"
           loading="lazy"
           style="width: 400px; height: 300px"
         />
 
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DSC_7254.JPG"
+          src="images/DSC_7254.JPG"
           loading="lazy"
           style="width: 400px; height: 300px"
         />
 
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DSC_7334.JPG"
+          src="images/DSC_7254.JPG"
           loading="lazy"
           style="width: 400px; height: 300px"
         />
 
         <img
           class="mySlides"
-          src="file:///D:/Alumni%20Website/images/DSC_7375.JPG"
+          src="images/DSC_7334.JPG"
+          loading="lazy"
+          style="width: 400px; height: 300px"
+        />
+
+        <img
+          class="mySlides"
+          src="images/DSC_7375.JPG"
           loading="lazy"
           style="width: 400px; height: 300px"
         />
